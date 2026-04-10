@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 bg-muted/60 backdrop-blur-sm border border-border rounded-full px-4 py-2">
             <Star className="w-4 h-4 text-gold fill-gold" />
             <span className="text-sm font-body text-muted-foreground">
-              +500 clientes satisfeitas em Orocó-PE
+              +100 clientes satisfeitas em Orocó-PE
             </span>
           </div>
 

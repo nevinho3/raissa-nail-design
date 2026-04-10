@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const categories = ["Todos", "Alongamento", "Nail Art", "Manutenção"];
 
@@ -15,25 +16,27 @@ const works = [
 const PortfolioSection = () => {
   const [active, setActive] = useState("Todos");
   const filtered = active === "Todos" ? works : works.filter((w) => w.cat === active);
+  const { ref, visible } = useScrollReveal();
 
   return (
     <section className="py-20" id="portfolio">
       <div className="container">
-        <div className="text-center mb-12">
+        <div
+          ref={ref}
+          className={`text-center mb-12 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+        >
           <p className="text-primary font-body text-sm uppercase tracking-widest mb-3">Portfólio</p>
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
-            Trabalhos que{" "}
-            <span className="text-gradient-gold italic">encantam</span>
+            Trabalhos que <span className="text-gradient-gold italic">encantam</span>
           </h2>
         </div>
 
-        {/* Filters */}
         <div className="flex justify-center gap-3 mb-10 flex-wrap">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActive(cat)}
-              className={`font-body text-sm px-5 py-2 rounded-full transition-all ${
+              className={`font-body text-sm px-5 py-2 rounded-full transition-all duration-300 ${
                 active === cat
                   ? "bg-gradient-rose text-primary-foreground shadow-glow-rose"
                   : "bg-muted text-muted-foreground hover:bg-muted/80"
@@ -44,12 +47,12 @@ const PortfolioSection = () => {
           ))}
         </div>
 
-        {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
           {filtered.map((work, i) => (
             <div
-              key={i}
-              className="group relative aspect-square rounded-2xl overflow-hidden border border-border hover:border-primary/30 transition-all"
+              key={`${active}-${i}`}
+              className="group relative aspect-square rounded-2xl overflow-hidden border border-border hover:border-primary/30 transition-all duration-500 animate-fade-up"
+              style={{ animationDelay: `${i * 80}ms` }}
             >
               <img
                 src={work.src}

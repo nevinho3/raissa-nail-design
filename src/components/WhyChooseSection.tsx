@@ -56,8 +56,8 @@ const WhyChooseSection = () => {
               />
             </div>
             <div className="absolute -bottom-4 -left-4 bg-card border border-border rounded-2xl p-4 shadow-lg">
-              <p className="font-heading text-2xl font-bold text-gradient-gold">5+</p>
-              <p className="text-xs text-muted-foreground font-body">anos de experiência</p>
+              <p className="font-heading text-2xl font-bold text-gradient-gold">1+</p>
+              <p className="text-xs text-muted-foreground font-body">ano de experiência</p>
             </div>
           </div>
         </div>

@@ -138,26 +138,5 @@ html {
   display: none !important;
 }
 
-/* Force mobile-only layout on every screen size */
-body {
-  background: #000;
-}
+/* Mobile-first design — fully responsive on desktop/notebook */
 
-#root {
-  max-width: 480px;
-  margin: 0 auto;
-  min-height: 100vh;
-  background: hsl(var(--background));
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
-  overflow-x: hidden;
-  position: relative;
-}
-
-/* Keep fixed/sticky bars inside the mobile frame */
-.fixed-mobile-frame {
-  left: 50% !important;
-  right: auto !important;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 480px;
-}

@@ -28,7 +28,7 @@ const FinalCtaSection = () => {
           </p>
           <Link
             to="/catalogo"
-            className="inline-block border-2 border-primary/60 text-foreground hover:bg-primary/10 font-body font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:border-primary"
+            className="inline-block bg-gradient-to-r from-accent to-gold text-accent-foreground font-body font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 shadow-glow-gold"
           >
             👀 Veja aqui
           </Link>

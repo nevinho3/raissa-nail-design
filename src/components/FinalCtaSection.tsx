@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const FinalCtaSection = () => {
@@ -16,6 +17,23 @@ const FinalCtaSection = () => {
         <p className="text-muted-foreground font-body max-w-lg mx-auto mb-4">
           Não deixe para depois. As melhores profissionais têm agenda cheia — garanta seu horário agora e transforme suas mãos.
         </p>
+
+        {/* Catálogo CTA */}
+        <div
+          className={`mb-8 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
+          style={{ transitionDelay: "150ms" }}
+        >
+          <p className="font-body text-foreground/90 mb-3 text-base md:text-lg">
+            ✨ <span className="italic text-gradient-gold">Veja primeiro nosso catálogo</span>
+          </p>
+          <Link
+            to="/catalogo"
+            className="inline-block border-2 border-primary/60 text-foreground hover:bg-primary/10 font-body font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:border-primary"
+          >
+            👀 Veja aqui
+          </Link>
+        </div>
+
         <p className="text-primary font-body text-sm font-medium mb-8 animate-pulse-slow">⚡ Restam poucas vagas esta semana</p>
         <a
           href="https://wa.link/0rvht5"

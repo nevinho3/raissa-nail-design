@@ -12,7 +12,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-md border-b border-border/50">
+    <nav className="fixed top-0 left-1/2 -translate-x-1/2 right-auto w-full max-w-[480px] z-40 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container flex items-center justify-between h-16">
         <a href="#" className="font-heading text-xl font-bold">
           <span className="text-gradient-gold">Raissa</span>{" "}

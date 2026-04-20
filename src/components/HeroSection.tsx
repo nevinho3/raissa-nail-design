@@ -47,7 +47,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2">
             <a
-              href="https://wa.link/0rvht5"
+              href="https://wa.link/ojewgn"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-rose text-primary-foreground font-body font-semibold px-8 py-4 rounded-full text-center text-lg shadow-glow-rose hover:scale-105 transition-transform duration-300"

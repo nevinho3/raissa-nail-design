@@ -11,7 +11,7 @@ import catalogGelBranco from "@/assets/catalog-gel-branco.jpg";
 import catalogManutencao from "@/assets/catalog-manutencao.jpg";
 import catalogRoidas from "@/assets/catalog-roidas.jpg";
 
-const WHATSAPP = "https://wa.link/0rvht5";
+const WHATSAPP = "https://wa.link/ojewgn";
 
 const Reveal = ({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) => {
   const { ref, visible } = useScrollReveal();

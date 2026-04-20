@@ -78,7 +78,7 @@ const Catalog = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Top bar */}
-      <div className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
+      <div className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border w-full">
         <div className="container py-4 flex items-center justify-between">
           <Link
             to="/"

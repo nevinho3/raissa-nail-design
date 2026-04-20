@@ -36,7 +36,7 @@ const FinalCtaSection = () => {
 
         <p className="text-primary font-body text-sm font-medium mb-8 animate-pulse-slow">⚡ Restam poucas vagas esta semana</p>
         <a
-          href="https://wa.link/0rvht5"
+          href="https://wa.link/ojewgn"
           target="_blank"
           rel="noopener noreferrer"
           className={`inline-block bg-gradient-rose text-primary-foreground font-body font-bold px-10 py-5 rounded-full text-lg shadow-glow-rose hover:scale-105 transition-all duration-500 ${visible ? "opacity-100 scale-100" : "opacity-0 scale-90"}`}

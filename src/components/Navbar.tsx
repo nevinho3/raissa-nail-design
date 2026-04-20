@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.link/0rvht5"
+            href="https://wa.link/ojewgn"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-rose text-primary-foreground font-body text-sm font-semibold px-5 py-2 rounded-full hover:scale-105 transition-transform"
@@ -61,7 +61,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://wa.link/0rvht5"
+              href="https://wa.link/ojewgn"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-gradient-rose text-primary-foreground font-body text-sm font-semibold px-5 py-3 rounded-full text-center"

@@ -71,7 +71,7 @@ const ServicesSection = () => {
                 ))}
               </div>
               <a
-                href="https://wa.link/0rvht5"
+                href="https://wa.link/ojewgn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block mt-6 text-center font-body text-sm font-medium text-primary hover:text-rose-light transition-colors"

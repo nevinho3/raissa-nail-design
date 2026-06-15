@@ -137,7 +137,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogFibra}
               title="Fibra de Vidro"
-              price="R$120"
+              price="R$170"
               pitch="Para quem quer unhas naturais, resistentes e elegantes."
               benefits={["Alta durabilidade", "Acabamento fino", "Visual natural"]}
               delay={0}
@@ -145,7 +145,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogBlindagem}
               title="Blindagem"
-              price="R$120"
+              price="R$80"
               pitch="Naturalidade, perfeito para qualquer formato, procedimento rápido."
               benefits={["Visual natural", "Perfeito para qualquer formato", "Procedimento rápido"]}
               delay={150}
@@ -153,7 +153,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogBanho}
               title="Banho em Gel"
-              price="R$80"
+              price="R$100"
               pitch="Perfeito para quem já tem unhas e quer fortalecer e dar brilho."
               benefits={["Proteção da unha natural", "Mais resistência", "Aparência saudável"]}
               delay={300}
@@ -175,9 +175,9 @@ const Catalog = () => {
           </Reveal>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
-              { icon: "💎", title: "Francesa 3D", price: "R$10", img: catalogFrancesa },
-              { icon: "✨", title: "Encapsulada", price: "R$10", img: catalogHero },
-              { icon: "🤍", title: "Gel branco", price: "R$15", img: catalogGelBranco },
+              { icon: "💎", title: "Francesa 3D", price: "R$20", img: catalogFrancesa },
+              { icon: "✨", title: "Encapsulada", price: "R$20", img: catalogHero },
+              { icon: "🤍", title: "Gel branco", price: "R$30", img: catalogGelBranco },
             ].map((item, i) => (
               <Reveal key={item.title} delay={i * 120}>
                 <div className="group relative bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-500 hover:-translate-y-1">

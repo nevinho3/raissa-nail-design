@@ -145,7 +145,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogBlindagem}
               title="Blindagem"
-              price="R$120"
+              price="R$80"
               pitch="Naturalidade, perfeito para qualquer formato, procedimento rápido."
               benefits={["Visual natural", "Perfeito para qualquer formato", "Procedimento rápido"]}
               delay={150}

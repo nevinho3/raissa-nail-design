@@ -9,6 +9,7 @@ import catalogBanho from "@/assets/catalog-banho.jpg";
 import catalogFrancesa from "@/assets/catalog-francesa.jpg";
 import catalogGelBranco from "@/assets/catalog-gel-branco.jpg";
 import catalogManutencao from "@/assets/catalog-manutencao.jpg";
+import catalogPedicure from "@/assets/catalog-pedicure.jpg";
 import catalogRoidas from "@/assets/catalog-roidas.jpg";
 
 const WHATSAPP = "https://wa.link/k0zdxw";
@@ -133,7 +134,7 @@ const Catalog = () => {
               <p className="text-muted-foreground font-body">Três técnicas, infinitas possibilidades.</p>
             </div>
           </Reveal>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <ServiceCard
               image={catalogFibra}
               title="Fibra de Vidro"
@@ -157,6 +158,14 @@ const Catalog = () => {
               pitch="Perfeito para quem já tem unhas e quer fortalecer e dar brilho."
               benefits={["Proteção da unha natural", "Mais resistência", "Aparência saudável"]}
               delay={300}
+            />
+            <ServiceCard
+              image={catalogPedicure}
+              title="Pedicure + Esmaltação em gel"
+              price="R$70"
+              pitch="Cuidado completo para seus pés com esmaltação em gel duradoura e brilhante."
+              benefits={["Hidratação profunda", "Esmaltação em gel longa duração", "Acabamento impecável"]}
+              delay={450}
             />
           </div>
         </div>

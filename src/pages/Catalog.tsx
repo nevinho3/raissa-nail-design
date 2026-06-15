@@ -153,7 +153,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogBanho}
               title="Banho em Gel"
-              price="R$80"
+              price="R$100"
               pitch="Perfeito para quem já tem unhas e quer fortalecer e dar brilho."
               benefits={["Proteção da unha natural", "Mais resistência", "Aparência saudável"]}
               delay={300}

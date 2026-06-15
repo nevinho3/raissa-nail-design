@@ -46,7 +46,7 @@ const StyleQuizSection = () => {
         {selected !== null && (
           <div className="text-center mt-8 animate-fade-up">
             <a
-              href="https://wa.link/ojewgn"
+              href="https://wa.link/k0zdxw"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-rose text-primary-foreground font-body font-semibold px-8 py-4 rounded-full shadow-glow-rose hover:scale-105 transition-transform"

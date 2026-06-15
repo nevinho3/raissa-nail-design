@@ -4,14 +4,14 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useEffect } from "react";
 import catalogHero from "@/assets/catalog-hero.jpg";
 import catalogFibra from "@/assets/catalog-fibra.jpg";
-import catalogGelTips from "@/assets/catalog-gel-tips.jpg";
+import catalogBlindagem from "@/assets/catalog-blindagem.jpg";
 import catalogBanho from "@/assets/catalog-banho.jpg";
 import catalogFrancesa from "@/assets/catalog-francesa.jpg";
 import catalogGelBranco from "@/assets/catalog-gel-branco.jpg";
 import catalogManutencao from "@/assets/catalog-manutencao.jpg";
 import catalogRoidas from "@/assets/catalog-roidas.jpg";
 
-const WHATSAPP = "https://wa.link/ojewgn";
+const WHATSAPP = "https://wa.link/k0zdxw";
 
 const Reveal = ({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) => {
   const { ref, visible } = useScrollReveal();
@@ -143,11 +143,11 @@ const Catalog = () => {
               delay={0}
             />
             <ServiceCard
-              image={catalogGelTips}
-              title="Gel na Tips"
+              image={catalogBlindagem}
+              title="Blindagem"
               price="R$120"
-              pitch="Ideal para quem quer alongamento rápido e uniforme."
-              benefits={["Estrutura firme", "Resultado imediato", "Ótimo para qualquer formato"]}
+              pitch="Naturalidade, perfeito para qualquer formato, procedimento rápido."
+              benefits={["Visual natural", "Perfeito para qualquer formato", "Procedimento rápido"]}
               delay={150}
             />
             <ServiceCard

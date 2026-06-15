@@ -10,7 +10,7 @@ const reviews = [
 ];
 
 const beforeAfter = [
-  { before: "https://i.postimg.cc/tJP0yWL3/Captura-de-tela-2026-04-08-231431.png", after: "https://i.postimg.cc/Pxp9z1rf/Captura-de-tela-2026-04-08-231456.png" },
+  { before: "https://i.postimg.cc/Gm66xFGk/5ce4bc5e-7143-401c-8355-2486b62f1d07.jpg", after: "https://i.postimg.cc/7hbNRcyq/81f129f1-2c6b-4e2c-b2ce-10433771d1b5.jpg" },
   { before: "https://i.postimg.cc/Lshb2jPQ/Captura-de-tela-2026-04-08-231842.png", after: "https://i.postimg.cc/YCCXzQbZ/Captura-de-tela-2026-04-08-231903.png" },
 ];
 

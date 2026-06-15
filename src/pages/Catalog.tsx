@@ -137,7 +137,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogFibra}
               title="Fibra de Vidro"
-              price="R$120"
+              price="R$170"
               pitch="Para quem quer unhas naturais, resistentes e elegantes."
               benefits={["Alta durabilidade", "Acabamento fino", "Visual natural"]}
               delay={0}

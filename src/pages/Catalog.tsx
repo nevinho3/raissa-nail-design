@@ -175,9 +175,9 @@ const Catalog = () => {
           </Reveal>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
-              { icon: "💎", title: "Francesa 3D", price: "R$10", img: catalogFrancesa },
-              { icon: "✨", title: "Encapsulada", price: "R$10", img: catalogHero },
-              { icon: "🤍", title: "Gel branco", price: "R$15", img: catalogGelBranco },
+              { icon: "💎", title: "Francesa 3D", price: "R$20", img: catalogFrancesa },
+              { icon: "✨", title: "Encapsulada", price: "R$20", img: catalogHero },
+              { icon: "🤍", title: "Gel branco", price: "R$30", img: catalogGelBranco },
             ].map((item, i) => (
               <Reveal key={item.title} delay={i * 120}>
                 <div className="group relative bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-500 hover:-translate-y-1">

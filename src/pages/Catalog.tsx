@@ -138,7 +138,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogFibra}
               title="Fibra de Vidro"
-              price="R$170"
+              price="R$130"
               pitch="Para quem quer unhas naturais, resistentes e elegantes."
               benefits={["Alta durabilidade", "Acabamento fino", "Visual natural"]}
               delay={0}
@@ -154,7 +154,7 @@ const Catalog = () => {
             <ServiceCard
               image={catalogBanho}
               title="Banho em Gel"
-              price="R$100"
+              price="R$90"
               pitch="Perfeito para quem já tem unhas e quer fortalecer e dar brilho."
               benefits={["Proteção da unha natural", "Mais resistência", "Aparência saudável"]}
               delay={300}
@@ -162,11 +162,12 @@ const Catalog = () => {
             <ServiceCard
               image={catalogPedicure}
               title="Pedicure + Esmaltação em gel"
-              price="R$70"
+              price="R$40"
               pitch="Cuidado completo para seus pés com esmaltação em gel duradoura e brilhante."
               benefits={["Hidratação profunda", "Esmaltação em gel longa duração", "Acabamento impecável"]}
               delay={450}
             />
+
           </div>
         </div>
       </section>
